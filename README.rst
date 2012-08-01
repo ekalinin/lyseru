@@ -21,14 +21,14 @@
 -------------------
 
 Чтобы не «загадить» систему, будем весь необходимый софт ставить в
-`виртуальном окружении <http://www.virtualenv.org/>`. Для начала необходимо
+`виртуальном окружении <http://www.virtualenv.org/>`_. Для начала необходимо
 поставить сам virtualenv::
 
     $ sudo aptitude install python-virtualenv
 
 После этого вытягиваем git-репозиторий::
 
-    $ https://github.com/ekalinin/learnyousomeerlang.ru.git
+    $ git clone git://github.com/ekalinin/learnyousomeerlang.ru.git
 
 И инициализируем окружение::
 
