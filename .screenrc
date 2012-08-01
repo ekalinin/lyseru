@@ -3,7 +3,8 @@ defutf8 on
 caption always ' %{-b dd}%-w%{cd}%n* %t%{-}%+w %{cd}%-=(%l) %d/%m %c%{-} '
 
 screen -t src               0
-stuff "vimt\015"
+#stuff "vimt\015"
+stuff "vim -c 'NERDTree'\015"
 screen -t git               1
 stuff "git status\015"
 screen -t env               2
