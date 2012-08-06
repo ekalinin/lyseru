@@ -14,3 +14,4 @@ Learn You Some Erlang
    01.introduction
    02.starting-out
    03.starting-out-for-real
+   04.modules
