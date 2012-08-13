@@ -4,9 +4,6 @@
  *
  * Sphinx stylesheet -- lsye theme.
  *
- * :copyright: Copyright 2012 by Eugene Kalinin.
- * :license: BSD.
- *
  */
 
 * {
@@ -229,6 +226,7 @@ div.document h2 {
 
 div.document p {
   margin-bottom: .5em;
+  font-size: 1em;
 }
 
 
